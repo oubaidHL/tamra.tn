@@ -1,0 +1,28 @@
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #76b852, #8dc26f);
+  background: -moz-linear-gradient(right, #76b852, #8dc26f);
+  background: -o-linear-gradient(right, #76b852, #8dc26f);
+  background: linear-gradient(to left, #76b852, #8dc26f);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #76b852;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #43a047;
+}
+.example-spacer {
+  flex: 1 1 auto;
+}
